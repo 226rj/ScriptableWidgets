@@ -4,9 +4,9 @@
 // Sync F1 Calendar to device
 // https://www.formula1.com/en/racing/2022.html
 
-// Change "F1 Calenda" to Calendar name
+// Change "F1 Calendar" to Calendar name
 
-// Add ti home screen
+// Add to home screen
 let calName = "F1 Calendar"
 // get the calendar 
 let cal = await loadCalendar(calName)
