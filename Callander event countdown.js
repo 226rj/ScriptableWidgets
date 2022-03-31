@@ -34,7 +34,7 @@ async function createWidget(alt) {
 
   let w = new ListWidget()
   // when widget is clicked it'll take us here in the default browser  
-    w.url = ""
+    w.url = "https://github.com/226rj/ScriptableWidgets/blob/main/README.md"
 
 
     w.backgroundColor = new Color("#ffffff")
