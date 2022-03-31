@@ -1,7 +1,9 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: light-gray; icon-glyph: magic;
+
 // create new Calendar in your calendar app
+// add events you want to have a countdown for
 // change calName to the name of your Calendar
 // add to homescreen for a countdown to events
 
@@ -18,7 +20,7 @@ let widget = await createWidget(event)
 // a widget. If not, show a preview of
 // the widget to easier debug it.
 if (!config.runsInWidget) {
-  await widget.presentSmall()
+  await widget.presentMedium()
 }
 // Tell the system to show the widget.
 Script.setWidget(widget)
@@ -33,8 +35,8 @@ async function createWidget(alt) {
   ]
 
   let w = new ListWidget()
-  // when widget is clicked it'll take us here in the default browser  
-    w.url = "https://github.com/226rj/ScriptableWidgets/blob/main/README.md"
+  // when widget is clicked it'll take us here // in // the default browser 
+// w.url = ""
 
 
     w.backgroundColor = new Color("#ffffff")
