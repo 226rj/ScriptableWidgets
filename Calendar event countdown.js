@@ -8,7 +8,7 @@
 // add to homescreen for a countdown to events
 
 // NOTE
-// Works with any even. i just used it for an exam countdown
+// Works with any events. i just used it for an exam countdown
 let calName = "Exam timetable"
 // get the calendar 
 let cal = await loadCalendar(calName)
