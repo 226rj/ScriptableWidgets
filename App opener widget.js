@@ -14,7 +14,7 @@ async function createWidget() {
   listwidget.backgroundColor = new Color("#ffffff")
   listwidget.backgroundGradient = gradient
   
-  listwidget.url = "notion://" // replace with desired app path
+  listwidget.url = "notion://" // replace with desired app path, comment out line to open scriptable app
 // Examples:
 // Calendar = calshow://
 // Notion = notion://
@@ -22,6 +22,8 @@ async function createWidget() {
 // Instagram = instagram://
 // Twitter = twitter://
 // Messages = messages://
+// Github = github://
+
 
 let heading = listwidget.addText("Notion"); // text  displayd
   heading.centerAlignText(); // Font allignment
