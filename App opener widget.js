@@ -23,6 +23,7 @@ async function createWidget() {
 // Twitter = twitter://
 // Messages = messages://
 // Github = github://
+// Apple wallet = wallet://
 
 
 let heading = listwidget.addText("Notion"); // text  displayd
